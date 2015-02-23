@@ -10,7 +10,7 @@ public interface Config {
 	//static final String GOOGLE_PROJECT_ID = "axial-keep-585";
 	static final String MESSAGE_KEY = "message";
 	static final String NOTIFICATION_ID = "notification_id";
-	//static final String SERVER_BASE_URL = "delapp.staging.justbooksclc.com";
-	static final String SERVER_BASE_URL = "192.168.2.18:5000";
+	static final String SERVER_BASE_URL = "delapp.staging.justbooksclc.com";
+	//static final String SERVER_BASE_URL = "192.168.2.18:5000";
 	//static final String SERVER_BASE_URL = "mapi.justbooksclc.com";
 }

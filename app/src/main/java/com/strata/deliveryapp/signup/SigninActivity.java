@@ -112,13 +112,13 @@ public class SigninActivity extends Activity {
 		            	  Random r = new Random();
 		            	  final int pas = r.nextInt(10000 - 1000) + 1000;
 		            	  System.out.println(pas);
-		            	  //Toast.makeText(getApplicationContext(), "password is : "+pas, Toast.LENGTH_LONG).show();
+		            	  Toast.makeText(getApplicationContext(), "password is : "+pas, Toast.LENGTH_LONG).show();
 		            	  //commenting for now.
-		            	  String url = "http://staging.justbooksclc.com:8787/api/v1/send_otp.json?phone=" + phone_no+"&otp="+String.valueOf(pas);
+		            	  /*String url = "http://staging.justbooksclc.com:8787/api/v1/send_otp.json?phone=" + phone_no+"&otp="+String.valueOf(pas);
 		            	  System.out.println("score here"+ phone_no);
 		            	  // Creating JSON Parser instance
 		            	  JSONParser jParser = new JSONParser();
-		      			  jParser.getJSONFromUrl(url);
+		      			  jParser.getJSONFromUrl(url);*/
 		      			              			   		      				  //------------------------------
 		      				  //comment to bypass authentication via sms
 		      				  //Intent checking_auth = new Intent(getApplicationContext(), PageZero.class);
