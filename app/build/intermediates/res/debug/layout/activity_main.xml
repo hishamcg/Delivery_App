@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?> 
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="#f4f4f4"
+   android:padding="10dip"
+   android:orientation="vertical" >
+   <!--<RelativeLayout 
+       android:id="@+id/RL_go"
+       android:layout_width="fill_parent"
+       android:padding="5dip"
+       android:background="#fff"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+	 	 <Spinner
+	        android:id="@+id/spinner1"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:entries="@array/slot"
+	        android:prompt="@string/pick_slot" /> 
+	 	
+	</RelativeLayout>-->
+    
+
+    <Button
+        android:id="@+id/fetch_data"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/go"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fetch_data"
+        android:layout_marginBottom="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Fetch Todays Order"
+        android:textSize="20sp" />
+
+     <ProgressBar
+         android:id="@+id/progress_bar"
+         style="@android:style/Widget.ProgressBar.Horizontal"
+         android:layout_width="100dip"
+         android:visibility="gone"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/fetch_data"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="27dp" />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/fetch_data"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="69dp"
+         android:text="Button" />
+     
+ </RelativeLayout>  <!-- From: file:/home/hisham/workspace/DeliveryApp1/app/src/main/res/layout/activity_main.xml -->

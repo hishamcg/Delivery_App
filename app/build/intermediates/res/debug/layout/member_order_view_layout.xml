@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <ScrollView 
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"> -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:background="#f4f4f4"
+   android:orientation="vertical" >
+	<LinearLayout
+	    android:id="@+id/LL_member_detail"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:visibility="gone"
+	    android:padding="10dip"
+	    android:orientation="vertical" >
+	    <LinearLayout
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:orientation="horizontal" >
+	      <TextView
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:text="Name : "
+	          android:textColor="#dfa569"
+	          android:textSize="14sp"/>
+	      <TextView
+	          android:id="@+id/member_name"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:text="Hisham"
+	          android:textColor="#a444"
+	          android:textSize="14sp" />
+	    </LinearLayout>
+	    <LinearLayout
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:orientation="horizontal" >
+	      <TextView
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:text="Membership_no : "
+	          android:textColor="#dfa569"
+	          android:textSize="14sp"/>
+	      <TextView
+	          android:id="@+id/membership_no"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:text="M12312"
+	          android:textColor="#a444"
+	          android:textSize="14sp" />
+	    </LinearLayout>
+	    <LinearLayout
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:orientation="horizontal" >
+	      <TextView
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:text="Branch : "
+	          android:textColor="#dfa569"
+	          android:textSize="14sp"/>
+	      <TextView
+	          android:id="@+id/member_branch"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:text="JP Nagar"
+	          android:textColor="#a444"
+	          android:textSize="14sp" />
+	    </LinearLayout>
+	    <LinearLayout
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:orientation="horizontal" >
+	      <TextView
+	          android:layout_width="wrap_content"
+	          android:layout_height="wrap_content"
+	          android:text="Address : "
+	          android:textColor="#dfa569"
+	          android:textSize="12sp"/>
+	      <TextView
+	          android:id="@+id/member_address"
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	          android:text="JP Nagar"
+	          android:textColor="#a444"
+	          android:textSize="14sp" />
+	    </LinearLayout>
+	    <LinearLayout
+	      android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_marginTop="5dip"
+	      android:orientation="horizontal" >
+	     <Button
+	        android:id="@+id/lphone"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="40dip"
+	        android:background="@drawable/button_brown"
+	        android:padding="5dip"
+	        android:layout_marginRight="5dip"
+	        android:text="Landline"
+	        android:textColor="#ffffff" />
+	      <Button
+	        android:id="@+id/mphone"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="40dip"
+	        android:background="@drawable/button_brown"
+	        android:padding="5dip"
+	        android:text="Mobile"
+	        android:textColor="#ffffff" />
+	    </LinearLayout>
+	</LinearLayout>
+	<RelativeLayout 
+	    android:id="@+id/member_detail"
+	    android:layout_below="@+id/LL_member_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_border"
+        android:layout_marginBottom="3dip"
+        android:layout_marginTop="3dip"
+        android:layout_marginLeft="2dip"
+        android:layout_marginRight="2dip"
+	    android:clickable="true">
+		<ImageView
+		    android:id="@+id/arrow_image"
+	        android:layout_width="30dip"
+	        android:layout_height="30dip"
+	        android:layout_margin="5dip"
+	        android:layout_centerVertical="true"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/arrow_down"/>
+	</RelativeLayout>
+	<RelativeLayout
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+	 android:layout_below="@+id/member_detail"
+	 android:background="#fff" >
+		<android.support.v4.view.ViewPager 
+		    android:id="@+id/pager_order"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent">
+		</android.support.v4.view.ViewPager>
+	</RelativeLayout>
+
+</RelativeLayout><!-- From: file:/home/hisham/workspace/DeliveryApp1/app/src/main/res/layout/member_order_view_layout.xml -->

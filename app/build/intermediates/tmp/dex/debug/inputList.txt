@@ -1,0 +1,4 @@
+/home/hisham/workspace/DeliveryApp1/app/build/intermediates/classes/debug
+/home/hisham/workspace/DeliveryApp1/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-33b023b409ed6fec965bc9554211758719a9fa49.jar
+/home/hisham/workspace/DeliveryApp1/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-856430551f2ee3becf011141c775401ef1650393.jar
+/home/hisham/workspace/DeliveryApp1/app/build/intermediates/pre-dexed/debug/classes-0115efd76768d9118e97b1fe514e387f097a29a3.jar

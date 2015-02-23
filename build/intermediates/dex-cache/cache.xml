@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/hisham/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/home/hisham/workspace/DeliveryApp1/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-33b023b409ed6fec965bc9554211758719a9fa49.jar" />
+    </item>
+    <item
+        jar="/home/hisham/workspace/DeliveryApp1/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/home/hisham/workspace/DeliveryApp1/app/build/intermediates/pre-dexed/debug/classes-0115efd76768d9118e97b1fe514e387f097a29a3.jar" />
+    </item>
+    <item
+        jar="/home/hisham/workspace/DeliveryApp1/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/home/hisham/workspace/DeliveryApp1/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-856430551f2ee3becf011141c775401ef1650393.jar" />
+    </item>
+
+</items>
